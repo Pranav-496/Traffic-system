@@ -4290,7 +4290,7 @@ void button(unsigned char key, int x, int y) {
 void rain_button(int button, int state, int x, int y) {
     if(button == GLUT_LEFT_BUTTON) {
         r++;
-        PlaySound(NULL, NULL, SND_ASYNC|SND_FILENAME|SND_LOOP);
+        PlaySound(TEXT("rain.wav"), NULL, SND_ASYNC|SND_FILENAME|SND_LOOP);
     }
     if(button == GLUT_RIGHT_BUTTON) {
         r = 0;
