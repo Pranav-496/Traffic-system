@@ -34,8 +34,6 @@ It showcases:
 | -------------------------------- | ------------------------------------ |
 | ![Day View](images/demo_day.png) | ![Night View](images/demo_night.png) |
 
-> 📸 *Replace the above image paths with your actual screenshots inside an `images/` folder.*
-
 ---
 
 ## ⚙️ Setup Instructions
