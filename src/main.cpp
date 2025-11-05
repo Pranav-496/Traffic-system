@@ -402,10 +402,10 @@ void shop() {
     glEnd();
 
     glColor3f(1.0, 1.0, 1.0);
-    c="KFC";
-    glRasterPos2f(-1.8 , 0.78);
+    c="Abdul Puncture";
+    glRasterPos2f(-1.9 , 0.78);
     for(int i = 0; c[i] !='\0'; i++)
-        glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, c[i]);
+        glutBitmapCharacter(GLUT_BITMAP_8_BY_13, c[i]);
     // left shop end
 
     // right shop start
@@ -508,8 +508,8 @@ void shop() {
     glEnd();
 
     glColor3ub(255, 255, 0);
-    c="Parekh Shop";
-    glRasterPos2f(-0.6 , 0.84);
+    c="Parekh Kirana";
+    glRasterPos2f(-0.64 , 0.82);
     for(int i = 0; c[i] !='\0'; i++)
         glutBitmapCharacter(GLUT_BITMAP_9_BY_15, c[i]);
     // right shop end
@@ -3597,10 +3597,10 @@ void night() {
         glVertex2f(-1.77f, 0.55f);
     glEnd();
     glColor3f(1.0, 1.0, 1.0);
-    c ="KFC";
-    glRasterPos2f(-1.8 , 0.78);
+    c ="Abdul Puncture";
+    glRasterPos2f(-1.9 , 0.78);
     for(int i = 0; c[i] !='\0'; i++)
-        glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, c[i]);
+        glutBitmapCharacter(GLUT_BITMAP_8_BY_13, c[i]);
     // left shop end
 
     // right shop start
@@ -3688,8 +3688,8 @@ void night() {
         glutBitmapCharacter(GLUT_BITMAP_8_BY_13, c[i]);
 
     glColor3ub(255, 255, 0);
-    c="Parekh Shop";
-    glRasterPos2f(-0.6 , 0.84);
+    c="Parekh Kirana";
+    glRasterPos2f(-0.64 , 0.82);
     for(int i = 0; c[i] !='\0'; i++)
         glutBitmapCharacter(GLUT_BITMAP_9_BY_15, c[i]);
     // right shop end
@@ -4311,6 +4311,7 @@ int main(int argc, char** argv) {
     glutCreateWindow("test"); // Create a window with the given title
 
     cout << "Project Title: Traffic Signal In The City \n" << endl;
+    cout << "Made by Pranav Landge & Team" << endl;
     glutDisplayFunc(start);
     inigl();
     glutTimerFunc(30, update_windmill,0);
