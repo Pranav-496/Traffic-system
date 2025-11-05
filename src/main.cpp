@@ -720,6 +720,11 @@ void house() {
         glVertex2f(-0.9f, 0.8f);
         glVertex2f(-1.4f, 0.8f);
     glEnd();
+    glColor3ub(0, 0, 139);
+    c="Patil Villa";
+    glRasterPos2f(-1.28 , 0.74);
+    for(int i = 0; c[i] !='\0'; i++)
+        glutBitmapCharacter(GLUT_BITMAP_9_BY_15, c[i]);
     // left house end
 
     // right house start
@@ -3900,6 +3905,10 @@ void night() {
         glVertex2f(-0.9f, 0.8f);
         glVertex2f(-1.4f, 0.8f);
     glEnd();
+    c="Patil Villa";
+    glRasterPos2f(-1.28 , 0.74);
+    for(int i = 0; c[i] !='\0'; i++)
+        glutBitmapCharacter(GLUT_BITMAP_9_BY_15, c[i]);
     // left house end
 
     // right house start
