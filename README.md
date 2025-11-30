@@ -84,6 +84,10 @@ Compile using:
 ```bash
 g++ src/main.cpp -Iinclude -Llib -lfreeglut -lopengl32 -lglu32 -lgdi32 -lwinmm -o main.exe
 ```
+OR
+```bash
+g++ src/main.cpp -o main.exe -lfreeglut -lopengl32 -lglu32 -lgdi32 -lwinmm
+```
 
 **Explanation of flags:**
 
