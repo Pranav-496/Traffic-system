@@ -166,13 +166,5 @@ make
 ## 📜 Credits
 
 **Developed by:**
-Pranav Landge & Team
+Pranav Landge & Team.
 K. K. Wagh Institute of Engineering Education & Research, Nashik
-
----
-
-## 🪪 License
-
-This project is licensed under the **MIT License** — feel free to use, modify, and distribute.
-
----
